@@ -77,7 +77,7 @@ pip install numpy scikit-learn
 ## **Usage**
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Machine-Learning-Models.git
+git clone https://github.com/darsh0820/Machine-Learning-Models.git
 cd Machine-Learning-Models
 cd Linear-Regression
 ```
