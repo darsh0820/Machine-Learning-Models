@@ -1,5 +1,5 @@
-# **Logistic Regression model from scratch**
-This project implements a simple Logistic Regression model from scratch using Python and applies it to the Breast Cancer dataset from Scikit-learn. The model is built without using any machine learning libraries for the logistic regression algorithm itself, providing an educational insight into how logistic regression works under the hood.
+# **Logistic Regression model**
+This project implements a simple Logistic Regression model using Python and applies it to the Breast Cancer dataset from Scikit-learn. The model is built without using any machine learning libraries for the logistic regression algorithm itself, providing an educational insight into how logistic regression works under the hood.
 
 ## **Table of Contents**
 - [What is Logistic Regression?](#what-is-logistic-regression)
@@ -27,6 +27,7 @@ where:
 - `z = b + w1x1 + w2x2 + .... + wnxn`
     - The `w` values are the model's learned weights, and `b` is the bias.
     - The `x` values are the feature values for a particular example.
+
 If you plot this logistic regression equation, you will get an S-curve as shown below.
 <div align="center">
 	<img width = "60%" src="log-reg/log-reg-graph.png">

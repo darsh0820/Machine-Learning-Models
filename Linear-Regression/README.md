@@ -1,5 +1,5 @@
-# **Linear Regression Model from Scratch**
-This project implements a simple Linear Regression model from scratch using Python and applies it to the California Housing dataset. The model is built without using any machine learning libraries for the linear regression algorithm itself, providing an educational insight into how linear regression works under the hood.
+# **Linear Regression Model**
+This project implements a simple Linear Regression model using Python and applies it to the California Housing dataset. The model is built without using any machine learning libraries for the linear regression algorithm itself, providing an educational insight into how linear regression works under the hood.
 
 ## **Table of Contents**
 - [What is Linear Regression?](#what-is-linear-regression)
@@ -25,6 +25,11 @@ Where:
 - `b` is the bias (intercept).
 - `w` values are the model's learned weights.
 - `x` values are the feature values for a particular example.
+
+If you plot this linear regression equation, you will get a straight line as shown below.
+<div align="center">
+    <img width = "60%" src="lin-reg/lin-plot.png">
+</div>
 
 ## **Gradient Descent**
 Gradient descent is an optimization algorithm used to minimize the cost function in linear regression. The general idea of gradient descent is to iteratively adjust the weights to find the best-fit line that minimizes the error (cost) between the predicted and actual values.
