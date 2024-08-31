@@ -11,7 +11,6 @@ This project implements a simple Logistic Regression model from scratch using Py
 - [Project Structure](#project-structure)
 - [Usage](#usage)
 - [Example Output](#example-output)
-- [Future Improvements](#future-improvements)
 
 ## **What is Logistic Regression?**
 Logistic regression is a data analysis technique that uses mathematics to find the relationships between two data factors. It then uses this relationship to predict the value of one of those factors based on the other. The prediction usually has a finite number of outcomes, like yes or no.
@@ -81,8 +80,9 @@ pip install numpy scikit-learn
 ## **Usage**
 1. Clone the repository:
 ```bash
-git clone https://github.com/darsh0820/Logistic-Regression-model.git
-cd Logistic-Regression-model
+git clone https://github.com/darsh0820/Machine-Learning-Models.git
+cd Machine-Learning-Models
+cd Logistic-Regression
 ```
 
 2. Run the project:
@@ -97,8 +97,3 @@ After running `implement.py`, you should see output similar to:<br>
 	<img width = "70%" src="output.png">
 </div>
 <!-- ![Output](output.png) -->
-
-## **Future Improvements**
-1. Implement regularization to prevent overfitting.
-2. Extend the model to handle multiclass classification.
-3. Compare the custom implementation with Scikit-learn's built-in Logistic Regression to evaluate performance differences.
