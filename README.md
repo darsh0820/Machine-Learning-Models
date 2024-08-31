@@ -50,7 +50,7 @@ Linear Regression is a supervised learning algorithm used for predicting a conti
 - **Gradient Descent**: An optimization algorithm used to minimize the cost function by iteratively updating the parameters.
 - **Cost Function**: Mean Squared Error (MSE) is used to measure the performance of the model.
 
-For more details, refer to the [Linear Regression implementation](implement.py).
+For more details, refer to the [Linear Regression implementation](https://github.com/darsh0820/Machine-Learning-Models/tree/main/Linear-Regression).
 
 ### **Logistic Regression**
 Logistic Regression is a supervised learning algorithm used for binary classification problems. It predicts the probability that a given input point belongs to a certain class, typically using the sigmoid function to map predicted values to probabilities.
