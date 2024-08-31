@@ -18,9 +18,9 @@ Logistic regression is a data analysis technique that uses mathematics to find t
 ## **Logistic Regression Function**
 Logistic regression is a statistical model that uses the logistic function, or logit function, in mathematics as the equation between x and y. The logit function maps y as a sigmoid function of x.
 <div align="center">
-	<img width = "20%" src="log_reg/log-reg-fnc.png">
+	<img width = "20%" src="log-reg/log-reg-fnc.png">
 </div>
-<!-- ![log-reg-fnc](log_reg/log-reg-fnc.png) -->
+<!-- ![log-reg-fnc](log-reg/log-reg-fnc.png) -->
 
 where:
 - `y'` is the output of the logistic regression model for a particular example.
@@ -29,16 +29,16 @@ where:
     - The `x` values are the feature values for a particular example.
 If you plot this logistic regression equation, you will get an S-curve as shown below.
 <div align="center">
-	<img width = "60%" src="log_reg/log-reg-graph.png">
+	<img width = "60%" src="log-reg/log-reg-graph.png">
 </div>
-<!-- ![log-reg-graph](log_reg/log-reg-graph.png) -->
+<!-- ![log-reg-graph](log-reg/log-reg-graph.png) -->
 
 ## **Gradient Descent**
 Unlike linear regression, which has a closed-form solution, gradient decent is applied in logistic regression. The general idea of gradient descent is to tweak parameters w and b iteratively to minimize a cost function.
 <div align="center">
-	<img width = "60%" src="log_reg/grad_desc.png">
+	<img width = "60%" src="log-reg/grad_desc.png">
 </div>
-<!-- ![log-reg-graph](log_reg/grad_desc.png) -->
+<!-- ![log-reg-graph](log-reg/grad_desc.png) -->
 
 ## **Cost Function**
 The cost function summarizes how well the model is behaving. In other words, we use the cost function to measure how close the model’s predictions are to the actual outputs.<br>
@@ -46,9 +46,9 @@ In linear regression, we use mean squared error (MSE) as the cost function. But 
 So, we use a logarithmic function to represent the cost of logistic regression. It is guaranteed to be convex for all input values, containing only one minimum, allowing us to run the gradient descent algorithm.<br>
 When dealing with a binary classification problem, the logarithmic cost of error depends on the value of y. We can define the cost for two cases separately:
 <div align="center">
-	<img width = "50%" src="log_reg/cost-fnc.png">
+	<img width = "50%" src="log-reg/cost-fnc.png">
 </div>
-<!-- ![Cost function](log_reg/cost-fnc.png) -->
+<!-- ![Cost function](log-reg/cost-fnc.png) -->
 
 ## **How It Works?**
 1. Data Preparation-  

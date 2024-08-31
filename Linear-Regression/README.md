@@ -35,10 +35,12 @@ Gradient descent is an optimization algorithm used to minimize the cost function
 
 ## **Cost Function**
 The cost function measures the performance of a linear regression model by calculating the difference between the predicted values and the actual values. The most commonly used cost function for linear regression is the Mean Squared Error (MSE), defined as:
-\[ J(\theta) = \frac{1}{2m} \sum_{i=1}^{m} (h_{\theta}(x^{(i)}) - y^{(i)})^2 \]
+<div align="center">
+    <img width = "50%" src="lin-reg/lin-cost.png">
+</div>
 Where:
-- `m` is the number of training examples.
-- `h_{\theta}(x)` is the predicted value for the input `x`.
+- `N` is the number of training examples.
+- `y'` is the predicted value for the input `x`.
 - `y` is the actual output.
 
 ## **How It Works?**
