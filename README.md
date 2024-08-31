@@ -62,7 +62,7 @@ Logistic Regression is a supervised learning algorithm used for binary classific
 - **Gradient Descent**: Used to find the optimal parameters that minimize the cost function.
 - **Cost Function**: Logarithmic loss is used as the cost function to measure the error in predictions.
 
-For more details, refer to the [Logistic Regression implementation](LogisticRegression.py).
+For more details, refer to the [Logistic Regression implementation](https://github.com/darsh0820/Machine-Learning-Models/tree/main/Logistic-Regression).
 
 ## **Installation**
 To run any of the models, ensure that you have Python 3 installed. The dependencies can be installed using:
