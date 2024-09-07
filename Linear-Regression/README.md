@@ -21,9 +21,13 @@ In linear regression, the relationship between the input features and the target
     <img width = "20%" src="lin-reg/lin-eqn.png">
 </div>
 Where:
+
 - `y` is the predicted output.
+
 - `b` is the bias (intercept).
+
 - `w` values are the model's learned weights.
+
 - `x` values are the feature values for a particular example.
 
 If you plot this linear regression equation, you will get a straight line as shown below.
@@ -44,8 +48,11 @@ The cost function measures the performance of a linear regression model by calcu
     <img width = "50%" src="lin-reg/lin-cost.png">
 </div>
 Where:
+
 - `N` is the number of training examples.
+
 - `y'` is the predicted value for the input `x`.
+
 - `y` is the actual output.
 
 ## **How It Works?**
@@ -88,7 +95,7 @@ python implement.py
 ```
 This will train the Linear Regression model on the California Housing dataset and evaluate its performance.
 
-## **Output**
+## **Example Output**
 After running `implement.py`, you should see output similar to:<br>
 <div align="center">
     <img width = "70%" src="output.png">

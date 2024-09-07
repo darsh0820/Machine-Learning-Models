@@ -20,7 +20,7 @@ Logistic regression is a statistical model that uses the logistic function, or l
 <div align="center">
 	<img width = "20%" src="log-reg/log-reg-fnc.png">
 </div>
-<!-- ![log-reg-fnc](log-reg/log-reg-fnc.png) -->
+
 
 where:
 - `y'` is the output of the logistic regression model for a particular example.
@@ -32,14 +32,12 @@ If you plot this logistic regression equation, you will get an S-curve as shown 
 <div align="center">
 	<img width = "60%" src="log-reg/log-reg-graph.png">
 </div>
-<!-- ![log-reg-graph](log-reg/log-reg-graph.png) -->
 
 ## **Gradient Descent**
 Unlike linear regression, which has a closed-form solution, gradient decent is applied in logistic regression. The general idea of gradient descent is to tweak parameters w and b iteratively to minimize a cost function.
 <div align="center">
 	<img width = "60%" src="log-reg/grad_desc.png">
 </div>
-<!-- ![log-reg-graph](log-reg/grad_desc.png) -->
 
 ## **Cost Function**
 The cost function summarizes how well the model is behaving. In other words, we use the cost function to measure how close the model’s predictions are to the actual outputs.<br>
@@ -49,7 +47,6 @@ When dealing with a binary classification problem, the logarithmic cost of error
 <div align="center">
 	<img width = "50%" src="log-reg/cost-fnc.png">
 </div>
-<!-- ![Cost function](log-reg/cost-fnc.png) -->
 
 ## **How It Works?**
 1. Data Preparation-  
@@ -92,9 +89,8 @@ python implement.py
 ```
 This will train the Logistic Regression model on the Breast Cancer dataset and evaluate its performance.
 
-## **Output**
+## **Example Output**
 After running `implement.py`, you should see output similar to:<br>
 <div align="center">
 	<img width = "70%" src="output.png">
 </div>
-<!-- ![Output](output.png) -->
