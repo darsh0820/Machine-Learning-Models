@@ -23,14 +23,14 @@ The K-means algorithm follows these main steps:
 4. **Repeat**: Repeat the assignment and update steps until the centroids no longer change or a specified number of iterations is reached.
 
 <div align="center">
-	<img width = "50%" src="kmeans/km-graph.png">
+	<img width = "60%" src="kmeans/km-graph.png">
 </div>
 
 ## **Cost Function**
 The cost function used in K-means clustering is the sum of squared distances between data points and their respective cluster centroids. It measures the compactness of the clusters, with a lower cost indicating tighter clusters.
 
 <div align="center">
-	<img width = "350%" src="kmeans/km-cost.png">
+	<img width = "35%" src="kmeans/km-cost.png">
 </div>
 
 where:
