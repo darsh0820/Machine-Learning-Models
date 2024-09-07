@@ -36,6 +36,8 @@ The cost function used in K-means clustering is the sum of squared distances bet
 where:
 - w<sub>ik</sub> = 0 if the data point does not belong to the cluster
 - w<sub>ik</sub> = 1 if the data point belongs to the cluster
+- x<sub>i</sub> is the position of a given point in the dataset
+- c<sub>k</sub> is the centroid of the cluster
 
 ## **How It Works?**
 1. **Data Preparation**: 
