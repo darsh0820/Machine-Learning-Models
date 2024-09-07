@@ -23,19 +23,19 @@ The K-means algorithm follows these main steps:
 4. **Repeat**: Repeat the assignment and update steps until the centroids no longer change or a specified number of iterations is reached.
 
 <div align="center">
-	<img width = "50%" src="kmeans/kmeans-algorithm.png">
+	<img width = "50%" src="kmeans/km-graph.png">
 </div>
 
 ## **Cost Function**
 The cost function used in K-means clustering is the sum of squared distances between data points and their respective cluster centroids. It measures the compactness of the clusters, with a lower cost indicating tighter clusters.
 
 <div align="center">
-	<img width = "50%" src="kmeans/km-cost.png">
+	<img width = "350%" src="kmeans/km-cost.png">
 </div>
 
 where:
-- `w<sub>ik</sub> = 0` if the data point does not belong to the cluster
-- `w<sub>ik</sub> = 1` if the data point belongs to the cluster
+- w<sub>ik</sub> = 0 if the data point does not belong to the cluster
+- w<sub>ik</sub> = 1 if the data point belongs to the cluster
 
 ## **How It Works?**
 1. **Data Preparation**: 
@@ -83,5 +83,5 @@ This will train the Logistic Regression model on the Breast Cancer dataset and e
 ## **Example Output**
 After running `implement.py`, you should see output similar to:<br>
 <div align="center">
-    <img width = "70%" src="output.png">
+    <img width = "80%" src="output.png">
 </div>
