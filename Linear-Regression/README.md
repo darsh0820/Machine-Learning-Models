@@ -18,7 +18,7 @@ Linear regression is a statistical method used to model the relationship between
 ## **Linear Regression Function**
 In linear regression, the relationship between the input features and the target variable is modeled as:
 <div align="center">
-    <img width = "40%" src="lin-reg/lin-eqn.png">
+    <img width = "70%" src="lin-reg/lin-eqn.png">
 </div>
 Where:
 
@@ -32,7 +32,7 @@ Where:
 
 If you plot this linear regression equation, you will get a straight line as shown below.
 <div align="center">
-    <img width = "60%" src="lin-reg/lin-plot.png">
+    <img width = "70%" src="lin-reg/lin-plot.png">
 </div>
 
 ## **Gradient Descent**

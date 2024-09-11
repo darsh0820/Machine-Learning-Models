@@ -18,7 +18,7 @@ Logistic regression is a data analysis technique that uses mathematics to find t
 ## **Logistic Regression Function**
 Logistic regression is a statistical model that uses the logistic function, or logit function, in mathematics as the equation between x and y. The logit function maps y as a sigmoid function of x.
 <div align="center">
-	<img width = "40%" src="log-reg/log-reg-fnc.png">
+	<img width = "60%" src="log-reg/log-reg-fnc.png">
 </div>
 
 
@@ -30,7 +30,7 @@ where:
 
 If you plot this logistic regression equation, you will get an S-curve as shown below.
 <div align="center">
-	<img width = "60%" src="log-reg/log-reg-graph.png">
+	<img width = "30%" src="log-reg/log-reg-graph.png">
 </div>
 
 ## **Gradient Descent**
@@ -45,7 +45,7 @@ In linear regression, we use mean squared error (MSE) as the cost function. But 
 So, we use a logarithmic function to represent the cost of logistic regression. It is guaranteed to be convex for all input values, containing only one minimum, allowing us to run the gradient descent algorithm.<br>
 When dealing with a binary classification problem, the logarithmic cost of error depends on the value of y. We can define the cost for two cases separately:
 <div align="center">
-	<img width = "60%" src="log-reg/cost-fnc.png">
+	<img width = "70%" src="log-reg/cost-fnc.png">
 </div>
 
 ## **How It Works?**
