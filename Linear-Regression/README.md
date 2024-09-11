@@ -18,7 +18,7 @@ Linear regression is a statistical method used to model the relationship between
 ## **Linear Regression Function**
 In linear regression, the relationship between the input features and the target variable is modeled as:
 <div align="center">
-    <img width = "20%" src="lin-reg/lin-eqn.png">
+    <img width = "40%" src="lin-reg/lin-eqn.png">
 </div>
 Where:
 

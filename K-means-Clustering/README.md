@@ -30,7 +30,7 @@ The K-means algorithm follows these main steps:
 The cost function used in K-means clustering is the sum of squared distances between data points and their respective cluster centroids. It measures the compactness of the clusters, with a lower cost indicating tighter clusters.
 
 <div align="center">
-	<img width = "35%" src="kmeans/km-cost.png">
+	<img width = "45%" src="kmeans/km-cost.png">
 </div>
 
 where:
