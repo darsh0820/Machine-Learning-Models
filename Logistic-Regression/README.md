@@ -18,7 +18,7 @@ Logistic regression is a data analysis technique that uses mathematics to find t
 ## **Logistic Regression Function**
 Logistic regression is a statistical model that uses the logistic function, or logit function, in mathematics as the equation between x and y. The logit function maps y as a sigmoid function of x.
 <div align="center">
-	<img width = "70%" src="log-reg/log-reg-fnc.png">
+	<img width = "80%" src="log-reg/log-reg-fnc.png">
 </div>
 
 

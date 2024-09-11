@@ -32,7 +32,7 @@ Where:
 
 If you plot this linear regression equation, you will get a straight line as shown below.
 <div align="center">
-    <img width = "70%" src="lin-reg/lin-plot.png">
+    <img width = "75%" src="lin-reg/lin-plot.png">
 </div>
 
 ## **Gradient Descent**
